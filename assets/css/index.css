@@ -16,6 +16,7 @@ body {
   margin: 0;
 }
 
+/* Navbar */
 nav .navbar-brand {
   color: white;
   font-size: xx-large;
@@ -27,4 +28,43 @@ nav .navbar-toggler {
 
 nav .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav {
+  font-size: 120%;
+}
+
+.nav-link {
+  color: white;
+}
+
+/* Media screens */
+@media screen and (min-width: 768px) {
+  /* Navbar */
+  nav .navbar-brand {
+    font-size: xx-large;
+  }
+
+  .navbar-nav {
+    font-size: 140%;
+  }
+
+  .css-text-color {
+    background-color: rgba(249, 245, 209, 0.9);
+    color: black;
+    display: inline-block;
+    padding: 0.25rem;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .css-text-color {
+    background-color: transparent;
+    color: white;
+    display: block;
+    padding: 0;
+    border-radius: 0;
+    margin-top: 4.5%;
+  }
 }
