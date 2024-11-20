@@ -56,13 +56,28 @@ nav .navbar-toggler-icon {
     padding: 0.25rem;
     border-radius: 5px;
   }
+
+  .css-margins {
+    margin-bottom: 2.5%;
+  }
 }
 
 @media screen and (min-width: 992px) {
-  .css-text-color {
+  /* Navbar */
+  .navbar-brand {
+    padding-right: 0;
+    margin-right: 0;
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 10%;
+  }
+
+  .css-text {
     background-color: transparent;
     color: white;
-    display: block;
+    display: inline-block;
+    max-width: 80px;
     padding: 0;
     border-radius: 0;
     margin-top: 4.5%;
