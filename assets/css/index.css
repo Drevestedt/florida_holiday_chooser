@@ -2,11 +2,8 @@
 /* Google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
-* {
-  font-family: "Lato", sans-serif;
-}
-
 body {
+  font-family: "Lato", sans-serif;
   background-image: url(../images/landing-page-bg.jpeg);
   background-color: black;
   background-repeat: no-repeat;
@@ -14,6 +11,20 @@ body {
   background-position: center;
   height: 100vh;
   margin: 0;
+}
+
+/* Main */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h2 {
+  color: white;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
 }
 
 /* Navbar */
@@ -39,6 +50,8 @@ nav .navbar-toggler-icon {
 }
 
 /* Media screens */
+
+/* Screen 768px */
 @media screen and (min-width: 768px) {
   /* Navbar */
   nav .navbar-brand {
@@ -48,10 +61,25 @@ nav .navbar-toggler-icon {
   .navbar-nav {
     font-size: 140%;
   }
+
+  /* Main */
+  main h2 {
+    margin-top: 0;
+  }
 }
 
+/* Screen 992px */
 @media screen and (min-width: 992px) {
+  /* Navbar */
   .nav-item {
     margin-right: 5%;
+  }
+}
+
+/* Screen 1200px */
+@media screen and (min-width: 1200px) {
+  /* Main */
+  main h2 {
+    font-size: 3rem;
   }
 }
