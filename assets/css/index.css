@@ -51,5 +51,7 @@ nav .navbar-toggler-icon {
 }
 
 @media screen and (min-width: 992px) {
-  /* Navbar */
+  .nav-item {
+    margin-right: 5%;
+  }
 }
