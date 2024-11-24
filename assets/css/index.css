@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(../images/landing-page-bg.png);
+  background-image: url(../images/landing-page-bg.jpeg);
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,38 +48,8 @@ nav .navbar-toggler-icon {
   .navbar-nav {
     font-size: 140%;
   }
-
-  .css-text-color {
-    background-color: rgba(249, 245, 209, 0.9);
-    color: black;
-    display: inline-block;
-    padding: 0.25rem;
-    border-radius: 5px;
-  }
-
-  .css-margins {
-    margin-bottom: 2.5%;
-  }
 }
 
 @media screen and (min-width: 992px) {
   /* Navbar */
-  .navbar-brand {
-    padding-right: 0;
-    margin-right: 0;
-  }
-
-  .navbar-nav .nav-item {
-    margin-right: 10%;
-  }
-
-  .css-text {
-    background-color: transparent;
-    color: white;
-    display: inline-block;
-    max-width: 80px;
-    padding: 0;
-    border-radius: 0;
-    margin-top: 4.5%;
-  }
 }
