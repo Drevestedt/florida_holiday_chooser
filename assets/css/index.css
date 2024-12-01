@@ -44,6 +44,10 @@ main {
   align-items: center;
 }
 
+main span {
+  margin-left: 10%;
+}
+
 main h1 {
   color: white;
   font-size: 2.5rem;
@@ -57,6 +61,23 @@ main h1 {
 
 .css-margin-bottom {
   margin-bottom: 2%;
+}
+
+.card-body {
+  background-color: ;
+}
+
+.card-title {
+  color: white;
+  font-size: 1.7rem;
+}
+
+.card-text {
+  color: white;
+}
+
+.btn-primary {
+  background-color: ;
 }
 
 /* Media screens */
