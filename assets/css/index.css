@@ -59,12 +59,12 @@ main h1 {
   margin-top: 9%;
 }
 
-.css-width {
-  width: 18rem;
-}
-
 .css-margin-bottom {
   margin-bottom: 2%;
+}
+
+.css-width {
+  width: 20rem;
 }
 
 .card {
@@ -118,6 +118,28 @@ main h1 {
   .nav-item {
     margin-right: 5%;
   }
+
+  /* Bottom cards */
+  #card-layout .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #card-layout .css-col-layout {
+  }
+
+  #card-layout .card {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .css-card-width {
+    width: 12rem;
+  }
+
+  .css-card-text {
+    min-height: 150px;
+  }
 }
 
 /* Screen 1200px */
@@ -125,5 +147,14 @@ main h1 {
   /* Main */
   main h2 {
     font-size: 3rem;
+  }
+
+  /* Bottom cards */
+  .css-width {
+    width: 13rem;
+  }
+
+  .css-card-text {
+    min-height: 128px;
   }
 }
