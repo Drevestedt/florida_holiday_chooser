@@ -28,12 +28,30 @@ nav .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
+.navbar-brand {
+  font-weight: bolder;
+}
+
 .navbar-nav {
   font-size: 120%;
 }
 
 .nav-link {
   color: white;
+}
+
+/* Social links */
+#social-links {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  justify-content: space-around;
+  padding: 0 !important;
+}
+
+#social-links a {
+  color: #264417;
+  font-size: x-large;
 }
 
 /* Main */
@@ -54,10 +72,35 @@ main h1 {
   margin-top: 1.5rem;
 }
 
+/* City Search Box */
+#city-search-box {
+  margin-top: 1rem;
+  display: flex;
+  align-items: stretch;
+}
+
+.city-search-field {
+  background-color: #1d9089;
+  color: white;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  padding: 0.5rem;
+}
+
+.city-search-field::placeholder {
+  color: #e1e1af;
+}
+
+.city-search-button {
+  background-color: #e1e1af;
+  color: #264417;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+
 /* Bottom card section */
 
 /* Media screens */
-
 /* Screen 768px */
 @media screen and (min-width: 768px) {
   /* Navbar */
@@ -78,8 +121,32 @@ main h1 {
 /* Screen 992px */
 @media screen and (min-width: 992px) {
   /* Navbar */
+  .navbar-nav {
+    margin-right: 32% !important;
+  }
+
   .nav-item {
-    margin-right: 5%;
+    margin-right: 10%;
+  }
+
+  /* Social links */
+  #social-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-top: 1rem;
+    margin-left: 0;
+    padding: 0;
+  }
+
+  #social-links a {
+    color: white;
+    font-size: 1.4rem;
+  }
+
+  /* City Search Box */
+  #city-search-box {
+    margin-top: 30%;
   }
 
   /* Bottom cards */
@@ -90,6 +157,11 @@ main h1 {
   /* Main */
   main h2 {
     font-size: 3rem;
+  }
+
+  /* Navbar */
+  .navbar-nav {
+    margin-right: 38% !important;
   }
 
   /* Bottom cards */
