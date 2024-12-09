@@ -95,6 +95,29 @@ main h1 {
 
 /* Bottom card section */
 
+#bottomCards {
+  margin-top: 2rem;
+}
+
+#bottomCards .card {
+  width: 18rem;
+  margin-bottom: 1.5rem;
+}
+
+#bottomCards .card-body {
+  background-color: #e1e1af;
+}
+
+#bottomCards .card-title,
+#bottomCards .card-text {
+  font-weight: bold;
+}
+
+#bottomCards .btn-primary {
+  background-color: #264417;
+  border: none;
+}
+
 /* Media screens */
 /* Screen 768px */
 @media screen and (min-width: 768px) {
@@ -145,6 +168,9 @@ main h1 {
   }
 
   /* Bottom cards */
+  #bottomCards .card {
+    width: 15rem;
+  }
 }
 
 /* Screen 1200px */
