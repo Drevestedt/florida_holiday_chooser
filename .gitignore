@@ -1,3 +1,7 @@
 # OS-specific files
 .DS_Store
 
+# JEST Testing
+node_modules
+package-lock.json
+package.json
