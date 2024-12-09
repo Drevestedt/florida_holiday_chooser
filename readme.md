@@ -15,6 +15,8 @@ This site is for the user to be able to choose a holiday destination based on th
 
 ### User story 1:
 
+I want a site where I easily can see suggestions of nice places in Florida where I can vaccation.
+
 ### User story 2:
 
 ## Wireframes
