@@ -175,6 +175,9 @@ main h1 {
   #bottomCards .card {
     width: 15rem;
   }
+
+  #bottom-cards .row {
+  }
 }
 
 /* Screen 1200px */
