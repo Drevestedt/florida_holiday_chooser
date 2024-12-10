@@ -162,6 +162,10 @@ main h1 {
     font-size: 1.4rem;
   }
 
+  .header-one {
+    text-decoration: underline;
+  }
+
   /* City Search Box */
   #city-search-box {
     margin-top: 30%;
