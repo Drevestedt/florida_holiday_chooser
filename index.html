@@ -150,8 +150,11 @@
           <!-- Select places to visit -->
           <div class="places-visit">
             <label for="places" class="form-label">Places to Visit:</label>
-            <textarea id="places" class="form-control" rows="3" placeholder="Places to visit"></textarea>
-          </div>
+            <select name="places" id="places" class="form-select" required>
+              <option value="" disabled selected>Select a place</option>
+              <option value="Test">Test</option>
+            </select>
+          </div> 
 
           <!-- Submit Button -->
           <button class="btn btn-primary">Create Package</button>
