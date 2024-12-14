@@ -16,5 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const city = document.getElementById("city");
   const accomodation = document.getElementById("accomodation");
   const priceRange = document.getElementById("price-range");
+  const places = document.getElementById("places");
 
+  // Validate inputs 
+  if (!city || !accomodation || !priceRange || !places) {
+
+  }
 })
