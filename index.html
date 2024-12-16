@@ -112,23 +112,20 @@
           <!-- Select City -->
           <div class="city-selection">
             <label for="city" class="form-label">Select a city:</label>
-            <select id="city" class="form-select" required>
+            <select name="city" id="city-choice" class="form-select" required>
               <option value="" disabled selected>Select a city</option>
               <option value="Miami">Miami</option>
               <option value="Orlando">Orlando</option>
-              <option value="Fort Meyers Beach">Fort Meyers Beach</option>
-              <option value="Key Largo">Key Largo</option>
-              <option value="Key West">Key West</option>
-              <option value="Naples">Naples</option>
+              <option value="Fort_Meyers_Beach">Fort Meyers Beach</option>
+              <option value="Key_West">Key West</option>
               <option value="Tampa">Tampa</option>
-              <option value="Fort Lauderdale">Fort Lauderdale</option>
             </select>
           </div>
 
           <!-- Select accomodation -->
           <div class="acc-selection">
             <label for="accomodation" class="form-label">Choose Accomodation:</label>
-            <select name="accomodation" id="accomodation" class="form-select">
+            <select name="accomodation" id="accomodation-choice" class="form-select" required>
               <option value="" disabled selected>Select accomodation</option>
               <option value="Hotel">Hotel</option>
               <option value="Apartment">Apartment</option>
@@ -139,7 +136,7 @@
           <!-- Select Price Range -->
           <div class="price-range">
           <label for="price-range" class="form-label">Price Range:</label>
-          <select name="price-range" id="price-range" class="form-select" required>
+          <select name="price-range" id="price-choice" class="form-select" required>
             <option value="" disabled selected>Select a price range</option>
             <option value="Economy">Economy</option>
             <option value="Mid-range">Mid-range</option>
@@ -150,11 +147,11 @@
           <!-- Select places to visit -->
           <div class="places-visit">
             <label for="places" class="form-label">Places to Visit:</label>
-            <select name="places" id="places" class="form-select" required>
+            <select name="places" id="places-choice" class="form-select" required>
               <option value="" disabled selected>Select a place</option>
-              <option value="Test">Test</option>
+              <option value=""></option>
             </select>
-          </div> 
+          </div>
 
           <!-- Submit Button -->
           <button class="btn btn-primary">Create Package</button>
@@ -267,5 +264,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="scripts/navbar.js"></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
