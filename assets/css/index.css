@@ -15,42 +15,34 @@ body {
 }
 
 /* Navbar */
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
 nav .navbar-brand {
   color: white;
   font-size: xx-large;
-}
-
-nav .navbar-toggler {
-  border: none;
-}
-
-nav .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
-
-.navbar-brand {
   font-weight: bolder;
-}
-
-.navbar-nav {
-  font-size: 120%;
-}
-
-.nav-link {
-  color: white;
 }
 
 /* Social links */
 #social-links {
   list-style: none;
   display: flex;
-  justify-content: start;
-  justify-content: space-around;
-  padding: 0 !important;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+#social-links li {
+  padding: 1rem;
 }
 
 #social-links a {
-  color: #264417;
+  color: white;
   font-size: x-large;
 }
 
@@ -88,36 +80,6 @@ main h1 {
 
 #display-package .card-title {
   font-size: large;
-}
-
-/* Bottom card section */
-
-#bottom-cards {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-}
-
-#bottom-cards .card {
-  width: 18rem;
-  margin-bottom: 1.5rem;
-  border: none;
-}
-
-#bottom-cards .card-body {
-  background-color: #e1e1af;
-}
-
-#bottom-cards .card-title,
-#bottomCards .card-text {
-  font-weight: bold;
-}
-
-#bottom-cards .btn-primary {
-  background-color: #264417;
-  border: none;
 }
 
 /* Media screens */
@@ -158,28 +120,6 @@ main h1 {
     margin-left: 0;
     padding: 0;
   }
-
-  #social-links a {
-    color: white;
-    font-size: 1.4rem;
-  }
-
-  .header-one {
-    text-decoration: underline;
-  }
-  
-  /* Bottom cards */
-  #bottom-cards .card-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 0.8rem;
-    margin-top: 14rem;
-  }
-
-  #bottom-cards .card {
-    width: 15rem;
-  }
 }
 
 /* Screen 1200px */
@@ -188,11 +128,4 @@ main h1 {
   main h2 {
     font-size: 3rem;
   }
-
-  /* Navbar */
-  .navbar-nav {
-    margin-right: 38% !important;
-  }
-
-  /* Bottom cards */
 }
