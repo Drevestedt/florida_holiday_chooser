@@ -27,17 +27,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const selectedCity = city.value;
 
     // Clear existing option in Places dropdown 
-    placesForCity.innerHTML = `<option value="" disabled selected>Select a city</option>`;
+    placesForCity.innerHTML = `<option value="" disabled selected>Select a place</option>`;
 
     // Get places for the selected city 
     const availablePlaces = cityPlaces[selectedCity] || [];
 
     // Populate Places Dropdown with new options 
-    places.forEach(place => {
+    availablePlaces.forEach(place => {
       const option = document.createElement("option");
       option.value = place;
       option.textContent = place;
-      placesForCity.appendChild("option");
+      placesForCity.appendChild(option);
     });
   });
 });
