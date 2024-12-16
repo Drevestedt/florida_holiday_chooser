@@ -69,6 +69,17 @@ main h1 {
   background-color: #e1e1af;
   padding: 20px;
   border-radius: 5px;
+  margin-top: 2rem;
+}
+
+.acc-selection,
+.price-range,
+.places-visit {
+  margin-top: 0.5rem;
+}
+
+#holiday-creator .btn-primary {
+  margin-top: 1.3rem;
 }
 
 #display-package {
@@ -103,12 +114,10 @@ main h1 {
 /* Screen 992px */
 @media screen and (min-width: 992px) {
   /* Navbar */
-  .navbar-nav {
-    margin-right: 32% !important;
-  }
-
-  .nav-item {
-    margin-right: 10%;
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   /* Social links */
