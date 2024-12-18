@@ -2,6 +2,11 @@
 /* Google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   font-family: "Lato", sans-serif;
   background-image: url(../images/landing-page-bg.jpeg);
@@ -10,7 +15,6 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
   margin: 0;
 }
 
@@ -21,6 +25,7 @@ nav {
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 nav .navbar-brand {
@@ -29,29 +34,13 @@ nav .navbar-brand {
   font-weight: bolder;
 }
 
-/* Social links */
-#social-links {
-  list-style: none;
-  display: flex;
-  padding: 0;
-  margin-top: 1rem;
-}
-
-#social-links li {
-  padding: 1rem;
-}
-
-#social-links a {
-  color: white;
-  font-size: x-large;
-}
-
 /* Main */
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 0;
 }
 
 main span {
@@ -80,6 +69,8 @@ main h1 {
 
 #holiday-creator .btn-primary {
   margin-top: 1.3rem;
+  background-color: #49634f;
+  border: none;
 }
 
 /* Display Package */
@@ -98,6 +89,28 @@ main h1 {
 
 #display-package .card-text {
   font-size: large;
+}
+
+/* Footer */
+footer {
+}
+
+/* Social links */
+#social-links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+#social-links li {
+  padding: 1rem;
+}
+
+#social-links a {
+  color: white;
+  font-size: x-large;
 }
 
 /* Media screens */
