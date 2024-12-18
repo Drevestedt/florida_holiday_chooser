@@ -5,18 +5,23 @@ const city = document.getElementById("city-choice");
 const accomodation = document.getElementById("accomodation-choice");
 const price = document.getElementById("price-choice");
 const placesForCity = document.getElementById("places-choice");
+const createButton = document.querySelector("#create-package");
+const displayPackageSection = document.getElementById("display-package");
 
 // Places to choose from based on city selection
 const cityPlaces = {
   Miami: ["Miami Beach", "Little Havanna", "Art Deco Historic District", "Everglades National Park", "Bayside Market Place"],
   Orlando: ["Disney World", "Universal Studios", "Sea World", "Kennedy Space Center", "Ripley's Believe It or Not!"],
   Fort_Meyers_Beach: ["Sunset Dolphin Cruise", "Lovers Key State Park", "Sanibel Island"],
-  Key_West: ["Sloppy Joes", "The Ernest Hemingway Home and Museum", "Key West Lighthouse and Keeper's Quarters Museum"],
+  Key_West: ["Sloppy Joes", "The Ernest Hemingway Home and Museum", "Key West Lighthouse"],
   Tampa: ["Bush Gardens", "The Florida Aquarium", "Ybor City"]
 }
 
 // Event listener for City selection 
-city.addEventListener("change", () => {
+city.addEventListener("change", placesDropdown);
+
+// Function for populating Places to Visit dropdown
+function placesDropdown() {
   const selectedCity = city.value;
 
   // Clear existing option in Places dropdown 
@@ -32,13 +37,13 @@ city.addEventListener("change", () => {
     option.textContent = place;
     placesForCity.appendChild(option);
   });
-});
+}
 
 // Event listener for the Create Package button 
-const createButton = document.querySelector("#create-package");
-const displayPackageSection = document.getElementById("display-package");
+createButton.addEventListener("click", displayPackage);
 
-createButton.addEventListener("click", (e) => {
+// Function for displaying the holiday package 
+function displayPackage(e) {
   e.preventDefault();
 
   // Collect user input values for the package display 
@@ -64,4 +69,4 @@ createButton.addEventListener("click", (e) => {
 
   // Scroll to display package section
   document.getElementById("display-package").scrollIntoView({ behavior: "smooth" });
-});
+}
