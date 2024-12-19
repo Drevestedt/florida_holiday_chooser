@@ -2,9 +2,9 @@
 /* Google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
-html,
-body {
-  height: 100%;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -15,7 +15,27 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+  pointer-events: none;
+}
+
+header {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* Navbar */
@@ -26,6 +46,7 @@ nav {
   align-items: center;
   margin-top: 1rem;
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 nav .navbar-brand {
@@ -40,7 +61,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 0;
+  margin: 3rem 0 auto 0;
+  padding-top: 0;
 }
 
 main span {
@@ -50,7 +72,6 @@ main span {
 main h1 {
   color: white;
   font-size: 2.5rem;
-  margin-top: 1.5rem;
 }
 
 /* Create Your Holiday Section */
@@ -76,36 +97,58 @@ main h1 {
 /* Display Package */
 #display-package {
   display: none;
-  background-color: #f8f9fa;
+  background-color: #5fb49f;
   padding: 20px;
   border-radius: 5px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem auto;
+  max-width: 400px;
 }
 
 #display-package h2 {
   margin-bottom: 1rem;
 }
 
-#display-package .card-text {
-  font-size: large;
+#package-details {
+  background-color: #1d9089;
+}
+
+#package-details .card-title {
+  font-size: 140%;
+  text-align: center;
+  color: white;
+}
+
+#package-details .card-text {
+  background-color: #49634f;
+  color: white;
+  font-size: 110%;
 }
 
 /* Footer */
 footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+  color: #e1e1af;
+  margin: 0 auto 0 4%;
 }
 
 /* Social links */
 #social-links {
   list-style: none;
   display: flex;
-  padding: 0;
-  margin-top: 1rem;
+  justify-content: start;
   margin-bottom: 0;
+  padding: 1rem;
 }
 
 #social-links li {
-  padding: 1rem;
+  margin: 0 0.8rem 0 0.8rem;
 }
 
 #social-links a {
@@ -134,20 +177,28 @@ footer {
 /* Screen 992px */
 @media screen and (min-width: 992px) {
   /* Navbar */
-  nav {
+  header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: start;
+    margin-left: 2.5%;
   }
 
-  /* Social links */
-  #social-links {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin-top: 1rem;
-    margin-left: 0;
-    padding: 0;
+  /* Create Your Holiday Section */
+  #creator-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  /* Remove top margin of form fields */
+  .acc-selection,
+  .price-range,
+  .places-visit {
+    margin-top: 0;
+  }
+
+  /* Create button */
+  #creator-form button {
   }
 }
 
