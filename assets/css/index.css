@@ -97,7 +97,8 @@ main h1 {
 /* Display Package */
 #display-package {
   display: none;
-  background-color: #5fb49f;
+  background-color: #264417;
+  color: white;
   padding: 20px;
   border-radius: 5px;
   margin: 2rem auto;
@@ -199,6 +200,11 @@ footer p {
 
   /* Create button */
   #creator-form button {
+    grid-column: 1 / -1;
+  }
+
+  #display-package {
+    max-width: 500px;
   }
 }
 
@@ -206,6 +212,6 @@ footer p {
 @media screen and (min-width: 1200px) {
   /* Main */
   main h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
