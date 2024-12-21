@@ -46,27 +46,32 @@ createButton.addEventListener("click", displayPackage);
 function displayPackage(e) {
   e.preventDefault();
 
-  // Collect user input values for the package display 
-  const selectedCity = city.value || "Not selected";
-  const selectedAccomodation = accomodation.value || "Not selected";
-  const selectedPrice = price.value || "Not selected";
-  const selectedPlacesForCity = placesForCity.value || "Not selected";
+  // Only show package if all fields are filled in
+  if (city.value === " " || accomodation.value === " " || price.value === " " || placesForCity.value === " ") {
+    alert("You need to fill in all the fields.");
+  } else {
+    // Collect user input values for the package display 
+    const selectedCity = city.value || "Not selected";
+    const selectedAccomodation = accomodation.value || "Not selected";
+    const selectedPrice = price.value || "Not selected";
+    const selectedPlacesForCity = placesForCity.value || "Not selected";
 
-  // Elements to display package details 
-  const packageCity = document.getElementById("package-city");
-  const packageAccomodation = document.getElementById("package-accomodation");
-  const packagePrice = document.getElementById("package-price");
-  const packagePlaces = document.getElementById("package-places");
+    // Elements to display package details 
+    const packageCity = document.getElementById("package-city");
+    const packageAccomodation = document.getElementById("package-accomodation");
+    const packagePrice = document.getElementById("package-price");
+    const packagePlaces = document.getElementById("package-places");
 
-  // Display the holiday package based on collected values 
-  packageCity.textContent = `City: ${selectedCity}`;
-  packageAccomodation.textContent = `Accomodation: ${selectedAccomodation}`;
-  packagePrice.textContent = `Price range: ${selectedPrice}`;
-  packagePlaces.textContent = `Places to visit: ${selectedPlacesForCity}`;
+    // Display the holiday package based on collected values 
+    packageCity.textContent = `City: ${selectedCity}`;
+    packageAccomodation.textContent = `Accomodation: ${selectedAccomodation}`;
+    packagePrice.textContent = `Price range: ${selectedPrice}`;
+    packagePlaces.textContent = `Places to visit: ${selectedPlacesForCity}`;
 
-  // Make the display package section visible 
-  displayPackageSection.style.display = "block";
+    // Make the display package section visible 
+    displayPackageSection.style.display = "block";
 
-  // Scroll to display package section
-  document.getElementById("display-package").scrollIntoView({ behavior: "smooth" });
+    // Scroll to display package section
+    document.getElementById("display-package").scrollIntoView({ behavior: "smooth" });
+  }
 }
