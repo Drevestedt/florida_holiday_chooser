@@ -1,6 +1,6 @@
 # Florida Holiday Chooser
 
-This site is for the user to be able to choose a holiday destination based on the users criteria of city, type of accomidation, price of accomidation, and things to do in an area.
+This site is for the user to be able to create a holiday package based on the users criteria of city, type of accomidation, price of accomidation, and things to do in an area.
 
 ## Table of contents
 
@@ -15,9 +15,11 @@ This site is for the user to be able to choose a holiday destination based on th
 
 ### User story 1:
 
-I want a site where I easily can see suggestions of nice places in Florida where I can vaccation.
+I want a simple site where I easily can see suggestions of nice cities in Florida where I can vaccation and get suggestions of things to do.
 
 ### User story 2:
+
+I would like a site where I can create a holiday package based on my choice of city, hotel and price.
 
 ## Wireframes
 
@@ -27,7 +29,7 @@ I want a site where I easily can see suggestions of nice places in Florida where
   <tr>
     <td align="center" valign="top">
       <h4>Landing page:</h4>
-      <img src="" alt="Landing page wireframe" width="300px">
+      <img src="./assets/images/landing_page_wire.png" alt="Landing page wireframe phone" width="300px">
     </td>
   </tr>
 </table>
@@ -38,7 +40,7 @@ I want a site where I easily can see suggestions of nice places in Florida where
   <tr>
     <td align="center" valign="top">
       <h4>Landing page:</h4>
-      <img src="" alt="Landing page wireframe" width="400px">
+      <img src="./assets/images/landing_page_wire_tablet.png" alt="Landing page wireframe tablet" width="400px">
     </td>
   </tr>
 </table>
@@ -49,7 +51,7 @@ I want a site where I easily can see suggestions of nice places in Florida where
   <tr>
     <td align="center" valign="top">
       <h4>Landing page:</h4>
-      <img src="" alt="Landing page wireframe" width="600px">
+      <img src="./assets/images/landing_page_wire_desktop.png" alt="Landing page wireframe desktop" width="600px">
     </td>
   </tr>
 </table>
@@ -79,6 +81,7 @@ Testing
 
 • Lighthouse: For performance, accessibility, SEO, and best practices auditing.
 • W3C Validator: For validating HTML and CSS compliance.
+• JSHint: For Javascript validation
 
 Additional Tools
 
@@ -97,7 +100,7 @@ Additional Tools
   <tr>
     <td align="center" valign="top">
       <h4>Page</h4>
-      <p>Home</p>
+      <p>Landing page</p>
     </td>
      <td align="center" valign="top">
       <h4>W3C URL</h4>
@@ -105,40 +108,12 @@ Additional Tools
     </td>
      <td align="center" valign="top">
       <h4>Screenshot</h4>
-       <img src="assets/images/test-home.png" alt="Screenshot HTML checker" width="600px">
+       <img src="" alt="Screenshot HTML checker" width="600px">
     </td>
      <td align="center" valign="top">
       <h4>Notes</h4>
       <p>Info: The trailing slash on void elements is just a product from using Prettier formating</p>
          Error: Not really an error, just the validator not recognizing the Prettier formating
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <p>Food</p>
-    </td>
-     <td align="center" valign="top">
-      <a href="https://validator.w3.org"><p>W3C</p></a>
-    </td>
-     <td align="center" valign="top">
-       <img src="assets/images/test-food.png" alt="Screenshot HTML checker" width="600px">
-    </td>
-     <td align="center" valign="top">
-      <p>Info: The trailing slash on void elements is just a product from using Prettier formating</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <p>Accessories</p>
-    </td>
-     <td align="center" valign="top">
-      <a href="https://validator.w3.org"><p>W3C</p></a>
-    </td>
-     <td align="center" valign="top">
-       <img src="assets/images/test-accessories.png" alt="Screenshot HTML checker" width="600px">
-    </td>
-     <td align="center" valign="top">
-      <p>Info: The trailing slash on void elements is just a product from using Prettier formating</p>
     </td>
   </tr>
 </table>
@@ -151,7 +126,7 @@ Additional Tools
   <tr>
     <td align="center" valign="top">
       <h4>Page</h4>
-      <p>Home</p>
+      <p>Landing page</p>
     </td>
      <td align="center" valign="top">
       <h4>W3C URL</h4>
@@ -159,38 +134,35 @@ Additional Tools
     </td>
      <td align="center" valign="top">
       <h4>Screenshot</h4>
-       <img src="assets/images/test-css-home.png" alt="Screenshot CSS checker" width="600px">
+       <img src="" alt="Screenshot CSS checker" width="600px">
     </td>
      <td align="center" valign="top">
       <h4>Notes</h4>
       <p>Pass: No errors</p>
     </td>
   </tr>
+</table>
+
+#### Javascript
+
+<p>I've used <a href="https://jshint.com">JShint</a> to validate all of my JS files.</p>
+
+<table>
   <tr>
     <td align="center" valign="top">
-      <p>Food</p>
+      <h4>Page</h4>
+      <p>Landing page</p>
     </td>
      <td align="center" valign="top">
-      <a href="https://jigsaw.w3.org/css-validator/"><p>W3C</p></a>
-    </td>
-     <td align="center" valign="top">
-       <img src="assets/images/test-css-food.png" alt="Screenshot CSS checker" width="600px">
-    </td>
-     <td align="center" valign="top">
-      <p>Pass: No errors</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <p>Accessories</p>
-    </td>
-     <td align="center" valign="top">
+      <h4>W3C URL</h4>
       <a href=""><p>W3C</p></a>
     </td>
      <td align="center" valign="top">
-       <img src="assets/images/test-css-accessories.png" alt="Screenshot CSS checker" width="600px">
+      <h4>Screenshot</h4>
+       <img src="" alt="Screenshot CSS checker" width="600px">
     </td>
      <td align="center" valign="top">
+      <h4>Notes</h4>
       <p>Pass: No errors</p>
     </td>
   </tr>
