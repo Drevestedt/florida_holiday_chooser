@@ -145,7 +145,7 @@ Additional Tools
 
 #### Javascript
 
-<p>I've used <a href="https://jshint.com">JShint</a> to validate all of my JS files.</p>
+<p>I've used <a href="https://jshint.com">JSHint</a> to validate all of my JS files.</p>
 
 <table>
   <tr>
@@ -154,12 +154,12 @@ Additional Tools
       <p>Landing page</p>
     </td>
      <td align="center" valign="top">
-      <h4>W3C URL</h4>
-      <a href=""><p>W3C</p></a>
+      <h4>JSHint URL</h4>
+      <a href="https://jshint.com"><p>JSHint</p></a>
     </td>
      <td align="center" valign="top">
       <h4>Screenshot</h4>
-       <img src="" alt="Screenshot CSS checker" width="600px">
+       <img src="" alt="Screenshot JSHint" width="600px">
     </td>
      <td align="center" valign="top">
       <h4>Notes</h4>
@@ -174,7 +174,7 @@ Additional Tools
   <tr>
     <td align="center" valign="top">
       <h4>Page</h4>
-      <p>Home</p>
+      <p>Landing page</p>
     </td>
     <td align="center" valign="top">
       <h4>Size</h4>
@@ -186,76 +186,6 @@ Additional Tools
     </td>
      <td align="center" valign="top">
       <h4>Notes</h4>
-      <p>Minor complaint: Touch targets do not have sufficient size or spacing.</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <p>Home</p>
-    </td>
-    <td align="center" valign="top">
-      <p>Desktop</p>
-    </td>
-     <td align="center" valign="top">
-      <img src="assets/images/test-lightspeed-home-desktop.png" width="400px">
-    </td>
-     <td align="center" valign="top">
-      <p>Minor complaint: Touch targets do not have sufficient size or spacing.</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <p>Food</p>
-    </td>
-    <td align="center" valign="top">
-      <p>Mobile
-    </td>
-     <td align="center" valign="top">
-      <img src="assets/images/test-lightspeed-food-mobile.png" width="400px">
-    </td>
-     <td align="center" valign="top">
-      <p>No major complaint.</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <p>Food</p>
-    </td>
-    <td align="center" valign="top">
-      <p>Desktop</p>
-    </td>
-     <td align="center" valign="top">
-      <img src="assets/images/test-lightspeed-food-desktop.png" width="400px">
-    </td>
-     <td align="center" valign="top">
-      <p>No major complaint.</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <p>Accessories</p>
-    </td>
-    <td align="center" valign="top">
-      <p>Mobile
-    </td>
-     <td align="center" valign="top">
-      <img src="assets/images/test-lightspeed-accessories-mobile.png" width="400px">
-    </td>
-     <td align="center" valign="top">
-      <p>Minor complaint: Touch targets do not have sufficient size or spacing.</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <p>Accessories</p>
-    </td>
-    <td align="center" valign="top">
-      <p>Desktop</p>
-    </td>
-     <td align="center" valign="top">
-      <img src="assets/images/test-lightspeed-accessories-desktop.png" width="400px">
-    </td>
-     <td align="center" valign="top">
       <p>Minor complaint: Touch targets do not have sufficient size or spacing.</p>
     </td>
   </tr>
@@ -275,19 +205,7 @@ Additional Tools
     </td>
      <td align="center" valign="top">
       <h4>Screenshot</h4>
-       <img src="assets/images/Safari-test-home.png" alt="Screenshot Home page Safari" width="200px">
-    </td>
-    <td align="center" valign="top">
-      <h4>Screenshot</h4>
-       <img src="assets/images/Safari-test-food.png" alt="Screenshot Food page Safari" width="200px">
-    </td>
-    <td align="center" valign="top">
-      <h4>Screenshot</h4>
-       <img src="assets/images/Safari-test-accessories.png" alt="Screenshot Accessories page Safari" width="200px">
-    </td>
-     <td align="center" valign="top">
-      <h4>Notes</h4>
-      <p>Work as expected</p>
+       <img src="" alt="Screenshot Landing page Safari" width="200px">
     </td>
   </tr>
    <tr>
@@ -295,16 +213,7 @@ Additional Tools
       <p>Brave</p>
     </td>
      <td align="center" valign="top">
-       <img src="assets/images/Brave-test-home.png" alt="Screenshot Home page Brave" width="200px">
-    </td>
-    <td align="center" valign="top">
-       <img src="assets/images/Brave-test-food.png" alt="Screenshot Food page Brave" width="200px">
-    </td>
-    <td align="center" valign="top">
-       <img src="assets/images/Brave-test-accessories.png" alt="Screenshot Accessories page Brave" width="200px">
-    </td>
-     <td align="center" valign="top">
-      <p>Work as expected</p>
+       <img src="" alt="Screenshot Landing page Brave" width="200px">
     </td>
   </tr>
   <tr>
@@ -312,16 +221,7 @@ Additional Tools
       <p>Firefox</p>
     </td>
      <td align="center" valign="top">
-       <img src="assets/images/Firefox-test-home.png" alt="Screenshot Home page Firefox" width="200px">
-    </td>
-    <td align="center" valign="top">
-       <img src="assets/images/Firefox-test-food.png" alt="Screenshot Food page Firefox" width="200px">
-    </td>
-    <td align="center" valign="top">
-       <img src="assets/images/Firefox-test-accessories.png" alt="Screenshot Accessories page Firefox" width="200px">
-    </td>
-     <td align="center" valign="top">
-      <p>Work as expected</p>
+       <img src="assets/images/Firefox-test-home.png" alt="Screenshot Landing page Firefox" width="200px">
     </td>
   </tr>
 </table>
@@ -338,19 +238,7 @@ Additional Tools
     </td>
      <td align="center" valign="top">
       <h4>Screenshot</h4>
-       <img src="assets/images/test-mobile-dev-home.png" alt="Screenshot Home page mobile" width="100px">
-    </td>
-    <td align="center" valign="top">
-      <h4>Screenshot</h4>
-       <img src="assets/images/test-mobile-dev-food.png" alt="Screenshot Food page mobile" width="100px">
-    </td>
-    <td align="center" valign="top">
-      <h4>Screenshot</h4>
-       <img src="assets/images/test-mobile-dev-accessories.png" alt="Screenshot Accessories page mobile" width="100px">
-    </td>
-     <td align="center" valign="top">
-      <h4>Notes</h4>
-      <p>Work as expected</p>
+       <img src="" alt="Screenshot Landing page mobile" width="100px">
     </td>
   </tr>
   <tr>
@@ -358,16 +246,7 @@ Additional Tools
       <p>Tablet (Dev Tools)</p>
     </td>
      <td align="center" valign="top">
-       <img src="assets/images/test-tablet-dev-home.png" alt="Screenshot Home page tablet" width="100px">
-    </td>
-    <td align="center" valign="top">
-       <img src="assets/images/test-tablet-dev-food.png" alt="Screenshot Food page tablet" width="100px">
-    </td>
-    <td align="center" valign="top">
-       <img src="assets/images/test-tablet-dev-accessories.png" alt="Screenshot Accessories page tablet" width="100px">
-    </td>
-     <td align="center" valign="top">
-      <p>Work as expected</p>
+       <img src="" alt="Screenshot Landing page tablet" width="100px">
     </td>
   </tr>
   <tr>
@@ -375,16 +254,7 @@ Additional Tools
       <p>Desktop</p>
     </td>
      <td align="center" valign="top">
-       <img src="assets/images/test-desktop-home.png" alt="Screenshot Home page desktop" width="100px">
-    </td>
-    <td align="center" valign="top">
-       <img src="assets/images/test-desktop-food.png" alt="Screenshot Food page desktop" width="100px">
-    </td>
-    <td align="center" valign="top">
-       <img src="assets/images/test-desktop-accessories.png" alt="Screenshot Accessories page desktop" width="100px">
-    </td>
-     <td align="center" valign="top">
-      <p>Work as expected</p>
+       <img src="" alt="Screenshot Landing page desktop" width="100px">
     </td>
   </tr>
   <tr>
@@ -392,16 +262,7 @@ Additional Tools
       <p>iPhone 14 Pro</p>
     </td>
      <td align="center" valign="top">
-       <img src="assets/images/test-iphone-home.png" alt="Screenshot Home page iphone 14 Pro" width="100px">
-    </td>
-    <td align="center" valign="top">
-       <img src="assets/images/test-iphone-food.png" alt="Screenshot Food page iphone 14 Pro" width="100px">
-    </td>
-    <td align="center" valign="top">
-       <img src="assets/images/test-iphone-accessories.png" alt="Screenshot Accessories page iphone 14 Pro" width="100px">
-    </td>
-     <td align="center" valign="top">
-      <p>Work as expected</p>
+       <img src="" alt="Screenshot Landing page iphone 14 Pro" width="100px">
     </td>
   </tr>
   <tr>
@@ -409,16 +270,7 @@ Additional Tools
       <p>iPad Pro 13"</p>
     </td>
      <td align="center" valign="top">
-       <img src="assets/images/test-ipad-home.png" alt="Screenshot Home page iPad Pro 13" width="100px">
-    </td>
-    <td align="center" valign="top">
-       <img src="assets/images/test-ipad-food.png" alt="Screenshot Food page iPad Pro 13" width="100px">
-    </td>
-    <td align="center" valign="top">
-       <img src="assets/images/test-ipad-accessories.png" alt="Screenshot Accessories page iPad Pro 13" width="100px">
-    </td>
-     <td align="center" valign="top">
-      <p>Work as expected</p>
+       <img src="" alt="Screenshot Landing page iPad Pro 13" width="100px">
     </td>
   </tr>
 </table>
