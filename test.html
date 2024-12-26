@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Maps API Test</title>
+    <style>
+      body {
+        background-color: grey;
+      }
+      #map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Google Maps API Test</h1>
+    <div id="map"></div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqRPn9xqUCLUjUFO0O1OKC3m-sem0uFy0&callback=initMap"
+      async
+      defer
+    ></script>
+
+    <script>
+      function initMap() {
+        const location = { lat: 27.9944024, lng: -81.7602544 };
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 6,
+          center: location,
+        });
+        const marker = new google.maps.Marker({
+          position: location,
+          map: map,
+        });
+      }
+    </script>
+  </body>
+</html>
