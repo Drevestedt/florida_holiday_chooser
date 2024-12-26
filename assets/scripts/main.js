@@ -81,9 +81,10 @@ function getCoordinates(city) {
     Tampa: { lat: 27.9506, lng: -82.4572 }
   }
   return coordinates[city];
+
 }
 
-// Function for displaying the holiday package 
+// Function for displaying the holiday package and map
 function displayPackage(e) {
   e.preventDefault();
 
@@ -113,6 +114,8 @@ function displayPackage(e) {
 
   // Display the map based on selected city
   const coordinates = getCoordinates(selectedCity);
+  console.log(coordinates);
+
   initMap(coordinates.lat, coordinates.lng);
 
   // Make the display package and map section visible 
