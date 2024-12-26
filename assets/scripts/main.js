@@ -7,6 +7,7 @@ const price = document.getElementById("price-choice");
 const placesForCity = document.getElementById("places-choice");
 const createButton = document.querySelector("#create-package");
 const displayPackageSection = document.getElementById("display-package");
+const displayMap = document.getElementById("map");
 
 // Places to choose from based on city selection
 const cityPlaces = {
@@ -47,6 +48,41 @@ function formFieldsFilled() {
   return city.value && accomodation.value && price.value && placesForCity.value;
 }
 
+// Function to initialize Google Maps
+function initMap(lat, lng) {
+  // Prevent function from being called until city coordinates have been passed
+  if (typeof lat !== "number" || typeof lng !== "number") {
+    return;
+  }
+
+  // Location based on selected city
+  const location = { lat: lat, lng: lng };
+
+  //Center the selected location on the map
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 10,
+    center: location
+  });
+
+  // Marker positioned at the selected location
+  const marker = new google.maps.Marker({
+    position: location,
+    map: map
+  });
+}
+
+// Function to get coordinates for the selected city
+function getCoordinates(city) {
+  const coordinates = {
+    Miami: { lat: 25.7617, lng: -80.1918 },
+    Orlando: { lat: 28.5383, lng: -81.3792 },
+    Fort_Meyers_Beach: { lat: 26.4520, lng: -81.9481 },
+    Key_West: { lat: 24.5551, lng: -81.7800 },
+    Tampa: { lat: 27.9506, lng: -82.4572 }
+  }
+  return coordinates[city];
+}
+
 // Function for displaying the holiday package 
 function displayPackage(e) {
   e.preventDefault();
@@ -75,10 +111,14 @@ function displayPackage(e) {
   packagePrice.textContent = `Price range: ${selectedPrice}`;
   packagePlaces.textContent = `Places to visit: ${selectedPlacesForCity}`;
 
-  // Make the display package section visible 
+  // Display the map based on selected city
+  const coordinates = getCoordinates(selectedCity);
+  initMap(coordinates.lat, coordinates.lng);
+
+  // Make the display package and map section visible 
   displayPackageSection.style.display = "block";
+  displayMap.style.display = "block";
 
-  // Scroll to display package section
+  // Scroll to display package and map section
   document.getElementById("display-package").scrollIntoView({ behavior: "smooth" });
-
 }
