@@ -114,7 +114,6 @@ function displayPackage(e) {
 
   // Display the map based on selected city
   const coordinates = getCoordinates(selectedCity);
-  console.log(coordinates);
 
   initMap(coordinates.lat, coordinates.lng);
 
