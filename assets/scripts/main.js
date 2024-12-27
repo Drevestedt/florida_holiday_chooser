@@ -1,4 +1,4 @@
-// Display Holiday Package based on user input
+// Display Holiday Package and Map based on user input
 
 // Collect user input 
 const city = document.getElementById("city-choice");
