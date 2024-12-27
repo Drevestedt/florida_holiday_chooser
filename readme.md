@@ -158,11 +158,11 @@ Additional Tools
     </td>
      <td align="center" valign="top">
       <h4>Screenshot</h4>
-       <img src="" alt="Screenshot JSHint" width="600px">
+       <img src="./assets/images/jshint.png" alt="Screenshot JSHint" width="600px">
     </td>
      <td align="center" valign="top">
       <h4>Notes</h4>
-      <p></p>
+      <p>No errors</p>
     </td>
   </tr>
 </table>
@@ -181,11 +181,11 @@ Additional Tools
     </td>
      <td align="center" valign="top">
       <h4>Screenshot</h4>
-      <img src="" width="400px">
+      <img src="./assets/images/pagespeed.png" alt="Pagespeed Screenshot" width="400px">
     </td>
      <td align="center" valign="top">
       <h4>Notes</h4>
-      <p></p>
+      <p>No major warnings</p>
     </td>
   </tr>
 
@@ -200,11 +200,11 @@ Additional Tools
     </td>
      <td align="center" valign="top">
       <h4>Screenshot</h4>
-      <img src="" width="400px">
+      <img src="./assets/images/pagespeed_desktop.png" alt="Pagespeed Screenshot" width="400px">
     </td>
      <td align="center" valign="top">
       <h4>Notes</h4>
-      <p></p>
+      <p>Almost perfect</p>
     </td>
   </tr>
 </table>
@@ -223,7 +223,7 @@ Additional Tools
     </td>
      <td align="center" valign="top">
       <h4>Screenshot</h4>
-       <img src="" alt="Screenshot Landing page Safari" width="200px">
+       <img src="./assets/images/safari.png" alt="Screenshot Landing page Safari" width="200px">
     </td>
   </tr>
    <tr>
@@ -231,7 +231,7 @@ Additional Tools
       <p>Brave</p>
     </td>
      <td align="center" valign="top">
-       <img src="" alt="Screenshot Landing page Brave" width="200px">
+       <img src="./assets/images/brave.png" alt="Screenshot Landing page Brave" width="200px">
     </td>
   </tr>
   <tr>
@@ -239,7 +239,7 @@ Additional Tools
       <p>Firefox</p>
     </td>
      <td align="center" valign="top">
-       <img src="assets/images/Firefox-test-home.png" alt="Screenshot Landing page Firefox" width="200px">
+       <img src="./assets/images/firefox.png" alt="Screenshot Landing page Firefox" width="200px">
     </td>
   </tr>
 </table>
@@ -256,7 +256,7 @@ Additional Tools
     </td>
      <td align="center" valign="top">
       <h4>Screenshot</h4>
-       <img src="" alt="Screenshot Landing page mobile" width="100px">
+       <img src="./assets/images/mobie_dev_tools.png" alt="Screenshot Landing page mobile" width="100px">
     </td>
   </tr>
   <tr>
@@ -264,7 +264,7 @@ Additional Tools
       <p>Tablet (Dev Tools)</p>
     </td>
      <td align="center" valign="top">
-       <img src="" alt="Screenshot Landing page tablet" width="100px">
+       <img src="./assets/images/tablet_dev_tools.png" alt="Screenshot Landing page tablet" width="100px">
     </td>
   </tr>
   <tr>
@@ -272,7 +272,7 @@ Additional Tools
       <p>Desktop</p>
     </td>
      <td align="center" valign="top">
-       <img src="" alt="Screenshot Landing page desktop" width="100px">
+       <img src="./assets/images/safari_resp.png" alt="Screenshot Landing page desktop" width="100px">
     </td>
   </tr>
   <tr>
