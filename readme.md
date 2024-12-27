@@ -108,12 +108,11 @@ Additional Tools
     </td>
      <td align="center" valign="top">
       <h4>Screenshot</h4>
-       <img src="" alt="Screenshot HTML checker" width="600px">
+       <img src="./assets/images/indexHTML.png" alt="Screenshot HTML checker" width="600px">
     </td>
      <td align="center" valign="top">
       <h4>Notes</h4>
-      <p>Info: The trailing slash on void elements is just a product from using Prettier formating</p>
-         Error: Not really an error, just the validator not recognizing the Prettier formating
+      <p>Info: "Trailing slash on void elements", is just Prettier formating not being liked. <br>Warning: Just a Heading not really needed.</p>
     </td>
   </tr>
 </table>
@@ -134,11 +133,11 @@ Additional Tools
     </td>
      <td align="center" valign="top">
       <h4>Screenshot</h4>
-       <img src="" alt="Screenshot CSS checker" width="600px">
+       <img src="./assets/images/indexCSS.png" alt="Screenshot CSS checker" width="600px">
     </td>
      <td align="center" valign="top">
       <h4>Notes</h4>
-      <p>Pass: No errors</p>
+      <p>Pass: No errors.<br>Warning: Nothing that impacts the CSS</p>
     </td>
   </tr>
 </table>
@@ -163,7 +162,7 @@ Additional Tools
     </td>
      <td align="center" valign="top">
       <h4>Notes</h4>
-      <p>Pass: No errors</p>
+      <p></p>
     </td>
   </tr>
 </table>
@@ -182,11 +181,30 @@ Additional Tools
     </td>
      <td align="center" valign="top">
       <h4>Screenshot</h4>
-      <img src="assets/images/test-lightspeed-home-mobile.png" width="400px">
+      <img src="" width="400px">
     </td>
      <td align="center" valign="top">
       <h4>Notes</h4>
-      <p>Minor complaint: Touch targets do not have sufficient size or spacing.</p>
+      <p></p>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" valign="top">
+      <h4>Page</h4>
+      <p>Landing page</p>
+    </td>
+    <td align="center" valign="top">
+      <h4>Size</h4>
+      <p>Desktop
+    </td>
+     <td align="center" valign="top">
+      <h4>Screenshot</h4>
+      <img src="" width="400px">
+    </td>
+     <td align="center" valign="top">
+      <h4>Notes</h4>
+      <p></p>
     </td>
   </tr>
 </table>
