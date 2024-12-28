@@ -280,7 +280,7 @@ Additional Tools
       <p>iPhone 14 Pro</p>
     </td>
      <td align="center" valign="top">
-       <img src="" alt="Screenshot Landing page iphone 14 Pro" width="100px">
+       <img src="./assets/images/iPhone.jpeg.png" alt="Screenshot Landing page iphone 14 Pro" width="100px">
     </td>
   </tr>
   <tr>
