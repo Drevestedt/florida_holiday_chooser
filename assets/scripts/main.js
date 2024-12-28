@@ -12,9 +12,9 @@ const displayMap = document.getElementById("map");
 // Places to choose from based on city selection
 const cityPlaces = {
   Miami: ["Miami Beach", "Little Havanna", "Art Deco Historic District", "Everglades National Park", "Bayside Market Place"],
-  Orlando: ["Disney World", "Universal Studios", "Sea World", "Kennedy Space Center", "Ripley's Believe It or Not!"],
+  Orlando: ["Disney World", "Universal Studios", "Sea World", "Kennedy Space Center", "Believe It or Not!"],
   Fort_Meyers_Beach: ["Sunset Dolphin Cruise", "Lovers Key State Park", "Sanibel Island"],
-  Key_West: ["Sloppy Joes", "The Ernest Hemingway Home and Museum", "Key West Lighthouse"],
+  Key_West: ["Sloppy Joes", "The Ernest Hemingway Home", "Key West Lighthouse"],
   Tampa: ["Bush Gardens", "The Florida Aquarium", "Ybor City"]
 }
 
