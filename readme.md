@@ -288,7 +288,7 @@ Additional Tools
       <p>iPad Pro 13"</p>
     </td>
      <td align="center" valign="top">
-       <img src="" alt="Screenshot Landing page iPad Pro 13" width="100px">
+       <img src="./assets/images/iPad_Pro_13.png" alt="Screenshot Landing page iPad Pro 13" width="100px">
     </td>
   </tr>
 </table>
